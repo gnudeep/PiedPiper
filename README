@@ -1,0 +1,13 @@
+piedpiper.com
+
+APIs
+upload and download with POST,GET a file with name.
+Delete file by DELET metod.
+HEAD file will help to check the file availbility
+
+Compress and uncompress with compress and uncompress operation. 
+Compress returns the the compressed file name.If call back is registered, callback will be invoke with file name as a parameter.
+Uncompress a file by sending the compressed file name.
+
+
+Group Id: com.piedpiper
