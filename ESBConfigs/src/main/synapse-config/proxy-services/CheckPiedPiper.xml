@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="CheckPiedPiper" transports="http" startOnLoad="true" trace="disable">
+    <target>
+        <endpoint name="endpoint_urn_uuid_459c78ee-4ee2-4440-a23e-0c786bd00602">
+            <address uri="http://www.piedpiper.com"/>
+        </endpoint>
+        <inSequence/>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+</proxy>
