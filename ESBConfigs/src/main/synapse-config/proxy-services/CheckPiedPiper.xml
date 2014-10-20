@@ -4,8 +4,11 @@
         <endpoint name="endpoint_urn_uuid_459c78ee-4ee2-4440-a23e-0c786bd00602">
             <address uri="http://www.piedpiper.com"/>
         </endpoint>
-        <inSequence/>
+        <inSequence>
+            <log level="full"/>
+        </inSequence>
         <outSequence>
+            <log level="full"/>
             <send/>
         </outSequence>
         <faultSequence/>
