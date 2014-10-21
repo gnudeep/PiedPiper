@@ -16,4 +16,4 @@ Group Id: com.piedpiper
 
 To deploy a car
 
-mvn clean deploy -Dmaven.car.deploy.skip=false
+	mvn deploy -Dmaven.car.deploy.skip=false -Dmaven.deploy.skip=true

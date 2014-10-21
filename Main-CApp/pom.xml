@@ -95,8 +95,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>maven-car-deploy-plugin</artifactId>
-        <!--version>1.0.9</version-->
-        <version>1.0.2</version>
+        <version>1.0.9</version>
         <extensions>true</extensions>
         <configuration>
           <carbonServers>
