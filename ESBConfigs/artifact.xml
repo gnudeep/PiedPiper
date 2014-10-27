@@ -2,4 +2,7 @@
     <artifact name="CheckPiedPiper" groupId="com.piedpiper.ESBConfigs.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/proxy-services/CheckPiedPiper.xml</file>
     </artifact>
+    <artifact name="PiedPiperTask" groupId="com.piedpiper.ESBConfigs.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/tasks/PiedPiperTask.xml</file>
+    </artifact>
 </artifacts>
