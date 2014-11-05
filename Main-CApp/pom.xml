@@ -16,11 +16,18 @@
   <properties>
     <com.piedpiper.ESBConfigs.task_._PiedPiperTask>capp/EnterpriseServiceBus</com.piedpiper.ESBConfigs.task_._PiedPiperTask>
     <com.piedpiper.Heartbeat_._Heartbeat>capp/ApplicationServer</com.piedpiper.Heartbeat_._Heartbeat>
+    <com.piedpiper.StaticRegResources.resource_._PiedPiperWeb>capp/GovernanceRegistry</com.piedpiper.StaticRegResources.resource_._PiedPiperWeb>
     <maven.car.deploy.skip>false</maven.car.deploy.skip>
     <com.piedpiper.ESBConfigs.proxy-service_._CheckPiedPiper>capp/EnterpriseServiceBus</com.piedpiper.ESBConfigs.proxy-service_._CheckPiedPiper>
     <artifact.types>jaggery/app=zip,service/rule=aar,lib/library/bundle=jar,synapse/message-processors=xml,synapse/endpointTemplate=xml,synapse/proxy-service=xml,synapse/message-store=xml,carbon/application=car,registry/resource=zip,lib/dataservice/validator=jar,synapse/endpoint=xml,web/application=war,synapse/sequence=xml,synapse/configuration=xml,lib/registry/handlers=jar,synapse/task=xml,service/meta=xml,webapp/jaxws=war,synapse/api=xml,cep/bucket=xml,bpel/workflow=zip,lib/registry/filter=jar,service/dataservice=dbs,synapse/local-entry=xml,synapse/priority-executor=xml,synapse/event-source=xml,synapse/template=xml,lib/carbon/ui=jar,service/axis2=aar,synapse/sequenceTemplate=xml,wso2/gadget=dar,lib/synapse/mediator=jar</artifact.types>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>com.piedpiper.StaticRegResources.resource</groupId>
+      <artifactId>PiedPiperWeb</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
     <dependency>
       <groupId>com.piedpiper.Heartbeat</groupId>
       <artifactId>Heartbeat</artifactId>

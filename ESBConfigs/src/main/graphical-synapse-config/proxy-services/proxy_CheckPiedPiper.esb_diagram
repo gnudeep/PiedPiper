@@ -60,20 +60,20 @@
                   </children>
                   <children xmi:type="notation:Node" xmi:id="_typJhVbHEeSDyOVlHjBX7A" type="3728">
                     <children xmi:type="notation:DecorationNode" xmi:id="_typwkFbHEeSDyOVlHjBX7A" type="7046">
-                      <children xmi:type="notation:Node" xmi:id="_tzsSYFbHEeSDyOVlHjBX7A" type="3610">
-                        <children xmi:type="notation:DecorationNode" xmi:id="_tzs5cFbHEeSDyOVlHjBX7A" type="5199"/>
-                        <children xmi:type="notation:Node" xmi:id="_tzznIFbHEeSDyOVlHjBX7A" type="3030">
-                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_tzznIVbHEeSDyOVlHjBX7A"/>
-                          <styles xmi:type="notation:FontStyle" xmi:id="_tzznIlbHEeSDyOVlHjBX7A" fontName="Ubuntu"/>
-                          <styles xmi:type="notation:LineStyle" xmi:id="_tzznI1bHEeSDyOVlHjBX7A"/>
-                          <element xmi:type="esb:AddressEndPointInputConnector" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tzznJFbHEeSDyOVlHjBX7A"/>
+                      <children xmi:type="notation:Node" xmi:id="_aNRAcGTgEeSF8fH08NTXOw" type="3660">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_aNRngGTgEeSF8fH08NTXOw" type="5165"/>
+                        <children xmi:type="notation:Node" xmi:id="_aNb_kGTgEeSF8fH08NTXOw" type="3661">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_aNb_kWTgEeSF8fH08NTXOw"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_aNb_kmTgEeSF8fH08NTXOw" fontName="Ubuntu"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_aNb_k2TgEeSF8fH08NTXOw"/>
+                          <element xmi:type="esb:NamedEndpointInputConnector" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aNb_lGTgEeSF8fH08NTXOw"/>
                         </children>
-                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_tzsSYVbHEeSDyOVlHjBX7A"/>
-                        <styles xmi:type="notation:FontStyle" xmi:id="_tzsSYlbHEeSDyOVlHjBX7A" fontName="Ubuntu"/>
-                        <styles xmi:type="notation:LineStyle" xmi:id="_tzsSY1bHEeSDyOVlHjBX7A"/>
-                        <element xmi:type="esb:AddressEndPoint" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow/@children.0"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tzsSZFbHEeSDyOVlHjBX7A" x="5" y="103"/>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_aNRAcWTgEeSF8fH08NTXOw"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_aNRAcmTgEeSF8fH08NTXOw" fontName="Ubuntu"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_aNRAc2TgEeSF8fH08NTXOw"/>
+                        <element xmi:type="esb:NamedEndpoint" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@mediatorFlow/@children.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aNRAdGTgEeSF8fH08NTXOw" x="14" y="36"/>
                       </children>
                       <styles xmi:type="notation:TitleStyle" xmi:id="_typwkVbHEeSDyOVlHjBX7A" showTitle="true"/>
                     </children>
@@ -225,11 +225,6 @@
     <element xmi:type="esb:EsbLink" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@OutputConnector/@outgoingLink"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t4U6wlbHEeSDyOVlHjBX7A" points="[-11, 7, 10, 0]$[-10, 0, 11, -7]"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_t6VF4FbHEeSDyOVlHjBX7A" type="4001" source="_typJgFbHEeSDyOVlHjBX7A" target="_tzznIFbHEeSDyOVlHjBX7A" roundedBendpointsRadius="5" routing="Rectilinear">
-    <styles xmi:type="notation:FontStyle" xmi:id="_t6VF4VbHEeSDyOVlHjBX7A" fontName="Ubuntu"/>
-    <element xmi:type="esb:EsbLink" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@endpointOutputConnector/@outgoingLink"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t6VF4lbHEeSDyOVlHjBX7A" points="[2, 9, -31, -110]$[31, 114, -2, -5]"/>
-  </edges>
   <edges xmi:type="notation:Connector" xmi:id="_t6hTIFbHEeSDyOVlHjBX7A" type="4001" source="_tyoicFbHEeSDyOVlHjBX7A" target="_tzZXcFbHEeSDyOVlHjBX7A" roundedBendpointsRadius="5" routing="Rectilinear">
     <styles xmi:type="notation:FontStyle" xmi:id="_t6hTIVbHEeSDyOVlHjBX7A" fontName="Ubuntu"/>
     <element xmi:type="esb:EsbLink" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@OutputConnector/@outgoingLink"/>
@@ -254,5 +249,10 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_gDsHEVhEEeSTDrsq0F2Ohw" fontName="Ubuntu"/>
     <element xmi:type="esb:EsbLink" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gDsHElhEEeSTDrsq0F2Ohw" points="[0, -5, 0, 38]$[0, -38, 0, 5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_aQqSsGTgEeSF8fH08NTXOw" type="4001" source="_typJgFbHEeSDyOVlHjBX7A" target="_aNb_kGTgEeSF8fH08NTXOw" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_aQqSsWTgEeSF8fH08NTXOw" fontName="Ubuntu"/>
+    <element xmi:type="esb:EsbLink" href="proxy_CheckPiedPiper.esb#//@server/@children.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aQqSsmTgEeSF8fH08NTXOw" points="[11, 4, -20, 0]$[25, 0, -6, -4]"/>
   </edges>
 </notation:Diagram>

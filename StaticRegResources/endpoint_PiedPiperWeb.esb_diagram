@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_MO9noGTiEeSJu-os90z04g" type="Esb" name="endpoint_PiedPiperWeb.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_MQIsUGTiEeSJu-os90z04g" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MQIsVWTiEeSJu-os90z04g" type="7001"/>
+    <children xmi:type="notation:Shape" xmi:id="_Qmj6AGTiEeSJu-os90z04g" type="3642" fontName="Ubuntu">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QmkhEGTiEeSJu-os90z04g" type="7041">
+        <children xmi:type="notation:Node" xmi:id="_Qmu5IGTiEeSJu-os90z04g" type="3646">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Qmu5JWTiEeSJu-os90z04g" type="5161"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Qmu5IWTiEeSJu-os90z04g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Qmu5ImTiEeSJu-os90z04g" fontName="Ubuntu"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_Qmu5I2TiEeSJu-os90z04g"/>
+          <element xmi:type="esb:AddressEndPoint" href="endpoint_PiedPiperWeb.esb#//@server/@children.0/@child"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qmu5JGTiEeSJu-os90z04g" width="75" height="75"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QmkhEWTiEeSJu-os90z04g" showTitle="true"/>
+      </children>
+      <element xmi:type="esb:EndpointDiagram" href="endpoint_PiedPiperWeb.esb#//@server/@children.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qmj6AWTiEeSJu-os90z04g" width="110" height="100"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_MQIsUWTiEeSJu-os90z04g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MQIsUmTiEeSJu-os90z04g" fontName="Ubuntu"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_MQIsU2TiEeSJu-os90z04g"/>
+    <element xmi:type="esb:EsbServer" href="endpoint_PiedPiperWeb.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MQIsVGTiEeSJu-os90z04g"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MO9noWTiEeSJu-os90z04g"/>
+  <element xmi:type="esb:EsbDiagram" href="endpoint_PiedPiperWeb.esb#/"/>
+</notation:Diagram>
