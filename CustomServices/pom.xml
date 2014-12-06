@@ -6,7 +6,6 @@
     <groupId>com.piedpiper</groupId>
     <artifactId>PiedPiperMavenParentProject</artifactId>
     <version>1.0.0</version>
-    <relativePath>../../rnd/PiedPiper/pom.xml</relativePath>
   </parent>
   <groupId>com.piedpiper.CustomServicesMavenParentProject</groupId>
   <artifactId>CustomServicesMavenParentProject</artifactId>

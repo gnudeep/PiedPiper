@@ -15,9 +15,16 @@ Uncompress a file by sending the compressed file name.
 JAX-WS
 
 
+Dataservices
+	Request logger - Request logger logs request informations to Mysql DB.
+
+Maven Project Information
+
 Group Id: com.piedpiper
 
+Build Porject:
+	mvn clean install
 
-To deploy a car
+Deploy a CAR file:
 
 	mvn deploy -Dmaven.car.deploy.skip=false -Dmaven.deploy.skip=true
