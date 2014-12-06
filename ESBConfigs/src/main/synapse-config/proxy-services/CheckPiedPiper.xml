@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <proxy xmlns="http://ws.apache.org/ns/synapse" name="CheckPiedPiper" transports="http" startOnLoad="true" trace="disable">
     <target>
-        <inSequence>
-            <log level="full"/>
-        </inSequence>
+        <inSequence/>
         <outSequence>
             <log level="full"/>
             <send/>
