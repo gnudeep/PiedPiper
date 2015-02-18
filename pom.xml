@@ -33,5 +33,6 @@
   	<module>CustomServices</module>
   	<module>DataServices</module>
   	<module>Main-CApp</module>
+  	<module>DynamicRegResources-Dev-CApp</module>
   </modules>
 </project>

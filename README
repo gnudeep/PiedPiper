@@ -9,7 +9,8 @@ Delete file with DELETE method.
 HEAD file will help to check the file availability
 
 Compress and uncompress with compress and uncompress operation. 
-Compress returns the the compressed file name.If call back is registered, callback will be invoke with file name as a parameter.
+	Compress returns the the compressed file name. If call back is registered, callback will be invoke with file name as a parameter.
+
 Decompress a file by sending the compressed file name.
 
 JAX-WS
