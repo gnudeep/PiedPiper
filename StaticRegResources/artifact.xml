@@ -6,4 +6,11 @@
             <mediaType>application/vnd.wso2.esb.endpoint</mediaType>
         </item>
     </artifact>
+    <artifact name="scenario1-policy_xml" groupId="com.piedpiper.StaticRegResources.resource" version="1.0.0" type="registry/resource" serverRole="GovernanceRegistry">
+        <item>
+            <file>scenario1-policy.xml</file>
+            <path>/_system/governance/wspolicy/security</path>
+            <mediaType>application/wspolicy+xml</mediaType>
+        </item>
+    </artifact>
 </artifacts>

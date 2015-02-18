@@ -10,13 +10,13 @@ HEAD file will help to check the file availability
 
 Compress and uncompress with compress and uncompress operation. 
 Compress returns the the compressed file name.If call back is registered, callback will be invoke with file name as a parameter.
-Uncompress a file by sending the compressed file name.
+Decompress a file by sending the compressed file name.
 
 JAX-WS
 
 
 Dataservices
-	Request logger - Request logger logs request informations to Mysql DB.
+	Request logger - Request logger logs request information to MySQL DB.
 
 Maven Project Information
 

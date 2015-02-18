@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><artifacts/>
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Heartbeatepr" groupId="com.piedpiper.DynamicRegResources-Dev.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>tepr.xml</file>
+            <path>/_system/config/esb/epr</path>
+            <mediaType/>
+        </item>
+    </artifact>
+</artifacts>
