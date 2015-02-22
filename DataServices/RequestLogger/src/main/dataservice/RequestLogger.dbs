@@ -21,7 +21,7 @@
             <element column="country" name="country" xsdType="string"/>
         </result>
     </query>
-    <query id="addEmployeeQuery" useConfig="RequestLogger">
+    <query id="addEmployeeQuery" useConfig="RL">
         <sql>insert into Employees (employeeNumber, lastName, firstName, email, salary) values(:employeeNumber,:lastName,:firstName,:email,:salary)</sql>
         <param name="employeeNumber" ordinal="1" paramType="SCALAR" sqlType="STRING" type="IN"/>
         <param name="lastName" ordinal="2" paramType="SCALAR" sqlType="STRING" type="IN">
@@ -33,7 +33,7 @@
         </param>
         <param defaultValue="1500" name="salary" ordinal="5" paramType="SCALAR" sqlType="DOUBLE" type="IN"/>
     </query>
-    <operation name="customersInBoston">
+    <operation disableStreaming="true" name="customersInBoston">
         <call-query href="customersInBostonSQL"/>
     </operation>
     <operation returnRequestStatus="true" name="addEmployee">
