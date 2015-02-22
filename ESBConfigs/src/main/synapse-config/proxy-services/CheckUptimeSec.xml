@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy xmlns="http://ws.apache.org/ns/synapse" name="CheckUptimeSec" transports="https http" startOnLoad="true" trace="disable">
+    <target>
+        <endpoint name="endpoint_urn_uuid_81e174c2-38fc-4b5e-b0a9-1454f81a7954">
+            <address uri="http://google.com"/>
+        </endpoint>
+        <inSequence>
+            <header xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" name="wsse:Security" scope="default" action="remove"/>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </target>
+    <policy key="gov:wspolicy/security/scenario1-policy.xml"/>
+    <parameter name="AllowedRole">admin</parameter>
+    <parameter name="ScenarioID">scenario1</parameter>
+    <enableSec/>
+</proxy>
